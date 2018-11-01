@@ -21,6 +21,7 @@ public class Cs_Player : MonoBehaviour {
 
 	void Start () {
         print("player start");
+        //playerBody = gameObject.transform.GetChild(0).GetComponent<Rigidbody>();
         playerBody = GetComponent<Rigidbody>();
         starting = transform.position;
 
