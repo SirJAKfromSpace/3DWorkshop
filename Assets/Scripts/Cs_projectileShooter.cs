@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class projectileShooter : MonoBehaviour {
+public class Cs_projectileShooter : MonoBehaviour {
 
 	public Rigidbody rocketProjectile;
     public Transform spout;

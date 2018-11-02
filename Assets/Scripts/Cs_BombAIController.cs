@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
 
-public class BombAIController : MonoBehaviour {
+public class Cs_BombAIController : MonoBehaviour {
 
     public Transform player;
     public NavMeshAgent agent;
